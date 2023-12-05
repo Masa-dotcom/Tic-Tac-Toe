@@ -55,5 +55,6 @@ button:hover {
 }
 
 .reset {
-    display: none;
+    display: block;
+    visibility: hidden;
 }
