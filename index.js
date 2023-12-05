@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function showResetButton() {
-        reset.style.display = 'block';
+        reset.style.visibility = 'visible';
     }
 
     function resetGame() {
@@ -70,6 +70,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
         message.textContent = "Player X's turn";
 
-        reset.style.display = 'none';
+        reset.style.visibility = 'hidden';
     }
 });
